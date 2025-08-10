@@ -8,18 +8,25 @@
 </head>
 <body>
     <h1>Welcome to my sign up form!</h1>
-    <div id="Form">
-    <form action="" method="get">
-    <label for="e-mail">Email*</label>
-    <br>
-    <input type="email" id="e-mail" required>
-    <br>
-    <label for="pw">Password*</label>
-    <br>
-    <input type="password" id="pw" required>
-    <br>
-    <button type="submit">Create epicness</button>
-    </form>
+
+    <div id="box">
+        <div id="Form">
+        <form action="" method="get">
+        <label for="e-mail">Email*</label>
+        <br>
+        <input type="email" id="e-mail" required>
+        <br>
+        <label for="pw">Password*</label>
+        <br>
+        <input type="password" id="pw" required minlength="8">
+        <br>
+        <label for="bd">Birthdate*</label>
+        <br>
+        <input type="date" id="bd" required>
+        <br>
+        <button type="submit">Create epicness</button>
+        </form>
+        </div>
     </div>
 </body>
 </html>

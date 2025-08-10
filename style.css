@@ -1,13 +1,19 @@
-body{
+body,html{
     margin:0;
     height:100vh;
+}
+#box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:60vh;
 }
 #Form{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 3px solid brown;
+    border: 5px solid brown;
+    padding: 10px;
+    border-radius: 50px;
 }
 input{
     height:30px;
