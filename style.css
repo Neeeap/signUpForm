@@ -1,6 +1,10 @@
 body,html{
     margin:0;
     height:100vh;
+    background-color: beige;
+    background-image: url("https://cdn.dribbble.com/userupload/10093676/file/original-232adf446d5619c49c4ffb6247751762.jpg?resize=752x&vertical=center");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #box{
     display: flex;
@@ -12,14 +16,15 @@ body,html{
     display: flex;
     flex-direction: column;
     border: 5px solid brown;
-    padding: 10px;
+    padding: 20px;
     border-radius: 50px;
+    background-color: skyblue;
 }
 input{
     height:30px;
     font-size:20px;
 }
-h1{
+h1,h2{
     text-align: center;
 }
 input{
@@ -36,4 +41,18 @@ input:focus{
     outline: none;
     border-color:blue;
     box-shadow: 2px 2px 5px 0;
+}
+button{
+    border: none;
+    display: block;
+    margin:0 auto;
+    color: black;
+    background-color: beige;
+    font-size: 30px;
+    padding:20px;
+    border-radius: 40px;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 0 black;
 }
