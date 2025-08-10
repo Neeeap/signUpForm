@@ -7,12 +7,16 @@ body{
     align-items: center;
     gap: 10px;
 }
-label{
-    margin-right: 10%;
+input{
+    height:30px;
+    font-size:20px;
 }
 h1{
     text-align: center;
 }
 input{
     border-radius: 10px;
+}
+input:focus{
+    border-color: blue;
 }
